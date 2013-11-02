@@ -1,7 +1,11 @@
 require "bundler/setup"
 require "sinatra"
+require 'sinatra/cross_origin'
 require "hypem"
 
+configure do
+  enable :cross_origin
+end
 
 get "/obsessed" do
   content_type :json
