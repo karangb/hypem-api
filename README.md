@@ -19,3 +19,9 @@ Track's mp3 link
 ```
 http://localhost:4567/mp3?hypemId=1z53b
 ```
+
+User's info
+--------
+```
+http://localhost:4567/user?username=karan
+```
